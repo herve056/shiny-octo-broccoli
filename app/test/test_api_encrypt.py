@@ -5,7 +5,7 @@ from fastapi.testclient import TestClient
 if 'SECRET_KEY' in os.environ:
     del os.environ['SECRET_KEY']
 
-from .main import app
+from ..main import app
 
 
 class TestApiEncrypt:

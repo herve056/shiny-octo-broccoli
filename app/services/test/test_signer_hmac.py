@@ -1,4 +1,4 @@
-from .signer import SignerHMAC
+from ..signer import SignerHMAC
 
 
 class TestSignerHMAC:

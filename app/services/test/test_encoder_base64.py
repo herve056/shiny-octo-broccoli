@@ -1,4 +1,4 @@
-from .encoder import EncoderBase64
+from ..encoder import EncoderBase64
 
 
 class TestEncoderBase64:

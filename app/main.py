@@ -2,8 +2,8 @@
 import os
 import sys
 from fastapi import FastAPI, Response, HTTPException, Body
-from app.encoder import EncoderBase64
-from app.signer import SignerHMAC
+from .services.encoder import EncoderBase64
+from .services.signer import SignerHMAC
 
 
 app = FastAPI(title="Riot Take-home Api", version="0.1.0")
